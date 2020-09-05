@@ -1,0 +1,45 @@
+{
+  "name": "ai-qconf-client",
+  "version": "0.0.4",
+  "description": "A qconf tools for nodejs and want to look for a girlfriend...",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "eslint --ext .ts,.js,.jsx . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meizikeai/ai-qconf-client.git"
+  },
+  "engines": {
+    "node": ">=8.11.2"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "utils/cache.js",
+    "utils/interval-cache-store.js"
+  ],
+  "keywords": [
+    "get",
+    "qconf",
+    "ai-qconf-client"
+  ],
+  "author": "meizikeai@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meizikeai/ai-qconf-client/issues"
+  },
+  "homepage": "https://github.com/meizikeai/ai-qconf-client",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
